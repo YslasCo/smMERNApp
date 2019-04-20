@@ -43,7 +43,7 @@ class Profiles extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 text-center">Developer Profiles</h1>
+              <h1 className="display-4 text-center">Web Developer Profiles</h1>
               <p className="lead text-center">
                 Browse and Connect with Developers
               </p>

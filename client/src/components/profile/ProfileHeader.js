@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS } from "constants";
+// import { SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS } from "constants";
 import isEmpty from "../../validation/is-empty";
 
 class ProfileHeader extends Component {
@@ -35,7 +35,7 @@ class ProfileHeader extends Component {
                     href={profile.website}
                     target="_blank"
                     //this was added to remove an error as a security risk, look into this again.
-                    rel="noopener noreferrer"
+                    // rel="noopener noreferrer"
                   >
                     <i className="fas fa-globe fa-2x" />
                   </a>
@@ -46,7 +46,7 @@ class ProfileHeader extends Component {
                     href={profile.social.twitter}
                     target="_blank"
                     //this was added to remove an error as a security risk, look into this again.
-                    rel="noopener noreferrer"
+                    // rel="noopener noreferrer"
                   >
                     <i className="fab fa-twitter fa-2x" />
                   </a>
@@ -57,7 +57,7 @@ class ProfileHeader extends Component {
                     href={profile.social.facebook}
                     target="_blank"
                     //this was added to remove an error as a security risk, look into this again.
-                    rel="noopener noreferrer"
+                    // rel="noopener noreferrer"
                   >
                     <i className="fab fa-facebook fa-2x" />
                   </a>
@@ -68,7 +68,7 @@ class ProfileHeader extends Component {
                     href={profile.social.linkedin}
                     target="_blank"
                     //this was added to remove an error as a security risk, look into this again.
-                    rel="noopener noreferrer"
+                    // rel="noopener noreferrer"
                   >
                     <i className="fab fa-linkedin fa-2x" />
                   </a>
@@ -79,7 +79,7 @@ class ProfileHeader extends Component {
                     href={profile.social.instagram}
                     target="_blank"
                     //this was added to remove an error as a security risk, look into this again.
-                    rel="noopener noreferrer"
+                    // rel="noopener noreferrer"
                   >
                     <i className="fab fa-instagram fa-2x" />
                   </a>
@@ -90,7 +90,7 @@ class ProfileHeader extends Component {
                     href={profile.social.youtube}
                     target="_blank"
                     //this was added to remove an error as a security risk, look into this again.
-                    rel="noopener noreferrer"
+                    // rel="noopener noreferrer"
                   >
                     <i className="fab fa-youtube fa-2x" />
                   </a>
